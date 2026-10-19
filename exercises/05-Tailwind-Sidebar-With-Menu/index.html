@@ -7,7 +7,30 @@
 		<title>05 Tailwind Sidebar With Menu</title>
 	</head>
 	<body>
-		<!-- your code here, remember to wrap everything in a w-full <div> -->
-		
+		<div class="w-full">
+			<div class="flex">
+				<div class="w-1/6 p-3">
+					<ul class="flex flex-col gap-2 list-none pl-0">
+						<li>
+							<a class="text-blue-600" aria-current="page" href="#">Home</a>
+						</li>
+						<li>
+							<a class="text-blue-600" href="#">Profile</a>
+						</li>
+						<li>
+							<a class="text-blue-600" href="#">Messages</a>
+						</li>
+					</ul>
+				</div>
+				<div class="w-5/6 bg-gray-100 p-3">
+					<h4>Hello!</h4>
+					<p>
+						I'm excited to use Tailwind because now I don't have to fight with CSS anymore, I made this layout in 20 minutes and before it
+						took me 2 hours easily!
+					</p>
+					<button class="bg-blue-600 text-white px-4 py-2 rounded">Click me!</button>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
